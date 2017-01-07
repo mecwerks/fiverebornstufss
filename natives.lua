@@ -5684,7 +5684,7 @@ function RemovePedFromGroup(ped)
 end
 
 function RemovePedElegantly(ped)
-	return _in(0xAC6D445B994DF95E, PointerValueIntInitialized(ped))
+	return _in(0xAC6D445B994DF95E, Citizen.PointerValueIntInitialized(ped))
 end
 
 function RemovePedDefensiveArea(p0, p1)
@@ -5784,7 +5784,7 @@ function RemoveClipSet(clipSet)
 end
 
 function RemoveBlip(blip)
-	return _in(0x86A652570E5F25DD, PointerValueIntInitialized(blip))
+	return _in(0x86A652570E5F25DD, Citizen.PointerValueIntInitialized(blip))
 end
 
 function RemoveAnimSet(animSet)
@@ -11448,7 +11448,7 @@ function DestroyAllCams(destroy)
 end
 
 function DeleteVehicle(vehicle)
-	return _in(0xEA386986E786A54F, PointerValueIntInitialized(vehicle))
+	return _in(0xEA386986E786A54F, Citizen.PointerValueIntInitialized(vehicle))
 end
 
 function DeleteStuntJump(p0)
@@ -11460,11 +11460,11 @@ function DeleteScriptVehicleGenerator(vehicleGenerator)
 end
 
 function DeleteRope(rope)
-	return _in(0x52B4829281364649, PointerValueIntInitialized(rope))
+	return _in(0x52B4829281364649, Citizen.PointerValueIntInitialized(rope))
 end
 
 function DeletePed(ped)
-	return _in(0x9614299DCB53E54B, PointerValueIntInitialized(ped))
+	return _in(0x9614299DCB53E54B, Citizen.PointerValueIntInitialized(ped))
 end
 
 function DeletePatrolRoute()
@@ -11472,15 +11472,15 @@ function DeletePatrolRoute()
 end
 
 function DeleteObject(object)
-	return _in(0x539E0AE3E6634B9F, PointerValueIntInitialized(object))
+	return _in(0x539E0AE3E6634B9F, Citizen.PointerValueIntInitialized(object))
 end
 
 function DeleteMissionTrain(train)
-	return _in(0x5B76B14AE875C795, PointerValueIntInitialized(train))
+	return _in(0x5B76B14AE875C795, Citizen.PointerValueIntInitialized(train))
 end
 
 function DeleteIncident(incident)
-	return _in(0x556C1AA270D5A207, PointerValueIntInitialized(incident))
+	return _in(0x556C1AA270D5A207, Citizen.PointerValueIntInitialized(incident))
 end
 
 function DeleteFunctionReference(referenceIdentity)
@@ -11488,7 +11488,7 @@ function DeleteFunctionReference(referenceIdentity)
 end
 
 function DeleteEntity(entity)
-	return _in(0xAE3CBE5BF394C9C9, PointerValueIntInitialized(entity))
+	return _in(0xAE3CBE5BF394C9C9, Citizen.PointerValueIntInitialized(entity))
 end
 
 function DeleteChildRope(rope)
